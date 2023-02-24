@@ -32,8 +32,8 @@ This was my result (Mobile Desing)
 
 ### Links
 
-- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/profile/Akiraz14)
-- Live Site URL: [GitHubPage](https://akiraz14.github.io/qr-code-component/)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/qr-code-component-flexbox-bem-iTLvsQOljy)
+- Live Site URL: [GitHub Page](https://akiraz14.github.io/qr-code-component/)
 
 ## My process
 
@@ -71,7 +71,7 @@ I will improve my knowledge in HTML, CSS, OOCSS and BEM. In future projects, I'd
 
 ## Author
 
-- Website - [Akiraz14](https://github.com/Akiraz14)
+- Website - [Akiraz14](https://akiraz14.github.io/)
 - Frontend Mentor - [@Akiraz14](https://www.frontendmentor.io/profile/Akiraz14)
 
 ## Acknowledgments
