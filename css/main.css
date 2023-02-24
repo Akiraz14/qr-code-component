@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;900&display=swap");
+
+:root {
+    --color-1rst: hsl(0, 0%, 100%);
+    --color-2nd: hsl(212, 45%, 89%);
+    --color-3rd: hsl(220, 15%, 55%);
+    --color-4th: hsl(218, 44%, 22%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--color-2nd);
+    font-family: "Outfit";
+    font-size: 15px;
+    color: var(--color-4th)
+}
+
+main {
+    margin: 1rem;
+}
+
+.card {
+    background-color: var(--color-1rst);
+    border-radius: 20px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.15);
+}
+
+.card--small {
+    max-width: 18rem;
+}
+
+.card__image {
+    display: flex;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card__image img {
+    width: 100%;
+}
+
+.card__text > * {
+    margin: 20px 0;
+    padding: 0 10px;
+}
+
+.card__text--title {
+    font-size: 1.4em;
+    font-weight: 700;
+}
+
+.card__text--subtext {
+    font-weight: 400;
+    color: var(--color-3rd);
+}
+
+footer {
+    margin-top: 20px;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+.attribution a:hover {
+    background-color: greenyellow;
+    color: royalblue;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 2px;
+    border-radius: 4px;
+}
